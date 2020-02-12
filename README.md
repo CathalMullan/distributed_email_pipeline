@@ -19,9 +19,9 @@ Workload expectations:
 * L: Complete summarization task on email bodies.
 
 ### Short-term
-* M: Read from Google Cloud in Minikube, with Spark job storing numpy array in bucket.
 * L: Export an iterable model from TensorFlow training.
 * S: Serve models over API.
+* L: Dissertation planning.
 
 ### Medium-term
 * L: Complete actionable email task on email bodies.
@@ -30,18 +30,17 @@ Workload expectations:
 ### Long-term
 * L: Complete CI Pipeline using master project.
 * L: Create React PWA frontend which mimics email client.
-* L: Monitoring solutions through Grafana and Prometheus.
+* M: Documentation using [Diagrams as Code](https://github.com/mingrammer/diagrams)
+* L: Complete deployment.
 
 ### Nice-to-haves
-* S: Airflow scheduling of batch jobs.
 * M: Export a TensorFlow.js friendly model.
 * M: Serve model within JavaScript.
-* M: Integrate `cathal.dev` domain.
 * L: Continuous integration creating and destroying Terraform cluster.
-* M: Serve models using WebAssembly.
 * S: De-identification tool as a service.
-* L: Hadoop integration for batch jobs.
-* L: Consider using Vault and Consul for Kubernetes management.
-* M: Unified CLI tool for downloading dependencies.
-* L: Hybrid cloud streaming deployment over AWS and Google Cloud
+* S: Airflow scheduling of batch jobs.
+* L: Monitoring solutions through Grafana and Prometheus.
+* M: Integrate `cathal.dev` domain.
+* L: Consider using Vault for Kubernetes secret management.
 * L: Perform audit on Kubernetes using kube-bench
+* M: Serve models using WebAssembly.
