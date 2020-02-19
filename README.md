@@ -14,8 +14,8 @@ Workload expectations:
 - **L**: 4 Day(s) - Large
 
 ### In Progress
-* M: Revisit initial eml pipeline step, try to integrate with Spark.
-* S: Create Spark Structured Streaming equivalent of batch processor, awaiting events.
+* S: Save Parquet files to Google Cloud Storage bucket.
+* S: Push Docker images to Google Cloud Container registry.
 * L: Complete summarization task on email bodies.
 
 ### Short-term
