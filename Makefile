@@ -1,3 +1,3 @@
-.PHONY: pull
-pull:
-	git submodule foreach --recursive git checkout master
+.PHONY: submodules
+submodules:
+	git submodule foreach --recursive git pull
