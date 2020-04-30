@@ -7,9 +7,6 @@
 [submodule "backend/email_stream_processor"]
 	path = backend/email_stream_processor
 	url = https://github.com/CathalMullan/email_stream_processor.git
-[submodule "frontend/email_client"]
-	path = frontend/email_client
-	url = https://github.com/CathalMullan/email_client.git
 [submodule "infrastructure/email_pipeline_infrastructure"]
 	path = infrastructure/email_pipeline_infrastructure
 	url = https://github.com/CathalMullan/email_pipeline_infrastructure.git
